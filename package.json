@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "lowdb": "^7.0.1",
+    "sip": "^0.0.6",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "vue": "^3.5.13"
+  }
+}
