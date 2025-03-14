@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-
-import axios from 'axios/dist/axios.min.js';
+import axios from 'axios';
+//import axios from 'axios/dist/axios.min.js';
 
 const radios = ref([]);
 const form = ref({ name: '', address: '' });

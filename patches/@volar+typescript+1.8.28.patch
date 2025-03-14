@@ -1,0 +1,12 @@
+diff --git a/node_modules/@volar/typescript/lib/node/decorateProgram.js b/node_modules/@volar/typescript/lib/node/decorateProgram.js
+--- a/node_modules/@volar/typescript/lib/node/decorateProgram.js
++++ b/node_modules/@volar/typescript/lib/node/decorateProgram.js
+@@ -70,7 +70,7 @@
+                     return false;
+                 }
+                 const isRoot = file.fileName === rootFile.fileName;
+-                if (file.fileName.endsWith('.vue') || isRoot) {
++                if (file && file.fileName && (file.fileName.endsWith('.vue') || isRoot)) {
+                     return true;
+                 }
+             }
